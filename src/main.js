@@ -1,9 +1,12 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
 import i18n from './i18n.js';
-import PrimeVue from 'primevue/config'
-import Aura from '@primevue/themes/aura'
+import PrimeVue from 'primevue/config';
+import Aura from '@primevue/themes/aura';
 import {Avatar, Button, Card, Drawer, Menu, Menubar, SelectButton, Toolbar} from "primevue";
+import './style.css';
+import 'primeicons/primeicons.css';
+import 'primeflex/primeflex.css';
 
 const app = createApp(App)
 app
